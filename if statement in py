@@ -1,0 +1,27 @@
+# even odd 
+num=input("enter a number: ")
+num = int(num)
+if num%2==0:
+    print ("EVEN")
+else:
+    print("ODD")
+    
+ #finding which food i want is belong to that list or not
+ 
+# num=input("enter a number: ")
+# num = int(num)
+# if num%2==0:
+#     print ("EVEN")
+# else:
+#     print("ODD")
+
+dish = input("Enter the food name: ")
+indian = ["samosa", "singara"]
+chinese = ["soup", "wanthon"]
+
+if dish in indian :
+    print("indian")
+elif dish in chinese:
+    print("chinese")
+else:
+    print("dont know")    
