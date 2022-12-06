@@ -1,0 +1,59 @@
+#VARIABLES
+
+print("HELLO WORLD")
+HELLO WORLD
+x = 220
+y = 3300
+print (x)
+220
+total = x+ y
+print (total)
+3520
+item = "x"
+item1 = "y"
+
+print ("Expense item:", x,y)
+Expense item: 220 3300
+
+
+#NUMBERS
+
+
+
+
+
+
+
+#STRINGS
+
+
+tex= "ice cream and sandwitch"
+tex
+'ice cream and sandwitch'
+tex{2}
+SyntaxError: invalid syntax
+tex[1]
+'c'
+tex[0:3]
+'ice'
+tex[0:]
+'ice cream and sandwitch'
+address = '''h-115, r-2
+muzgunni r/a ,
+boyra,khulna'''
+address
+'h-115, r-2\nmuzgunni r/a ,\nboyra,khulna'
+address = '''h-115, r-2
+muzgunni r/a boyra,khulna'''
+address
+'h-115, r-2\nmuzgunni r/a boyra,khulna'
+s1 = "hard work"
+s2 = "beats talent"
+s1+ " " + s2
+'hard work beats talent'
+s2 = "Total rivers in bd #"
+num = 25
+str(num)
+'25'
+s2 + " " + str(num)
+'Total rivers in bd # 25'
