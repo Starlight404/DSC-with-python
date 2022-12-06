@@ -1,0 +1,79 @@
+##LISTING
+
+item1 = "PASTA"
+item = "bread"
+item2 = "fruits"
+
+items = ["Pasta", "fruits", "bread", "Chicken"]
+items
+['Pasta', 'fruits', 'bread', 'Chicken']
+items[0]
+'Pasta'
+items[1]
+'fruits'
+items[3]
+'Chicken'
+items[0 = "VEGGIE"]
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+items[0] = "POTATOES"
+items[0]
+'POTATOES'
+items
+['POTATOES', 'fruits', 'bread', 'Chicken']
+items[0:2]
+['POTATOES', 'fruits']
+items[0:]
+['POTATOES', 'fruits', 'bread', 'Chicken']
+items[:3]
+['POTATOES', 'fruits', 'bread']
+items[:]
+['POTATOES', 'fruits', 'bread', 'Chicken']
+items [-1]
+'Chicken'
+items[-2]
+'bread'
+items
+['POTATOES', 'fruits', 'bread', 'Chicken']
+items.append("MILK")
+items
+['POTATOES', 'fruits', 'bread', 'Chicken', 'MILK']
+items.insert(1,"FISH")
+items
+['POTATOES', 'FISH', 'fruits', 'bread', 'Chicken', 'MILK']
+food = ["apple", "Orange"]
+bathroom = "SOAP", "TOWEL"]
+SyntaxError: unmatched ']'
+bathroom = ["SOAP", "TOWEL"]
+item = food + bathroom
+item
+['apple', 'Orange', 'SOAP', 'TOWEL']
+item.append("Fish")
+item
+['apple', 'Orange', 'SOAP', 'TOWEL', 'Fish']
+item
+['apple', 'Orange', 'SOAP', 'TOWEL']
+item
+SyntaxError: multiple statements found while compiling a single statement
+item
+['apple', 'Orange', 'SOAP', 'TOWEL']
+SyntaxError: multiple statements found while compiling a single statement
+item
+['apple', 'Orange', 'SOAP', 'TOWEL']
+item = food + bathroom
+SyntaxError: multiple statements found while compiling a single statement
+item
+['apple', 'Orange', 'SOAP', 'TOWEL', 'Fish']
+item.insert(1,"FISH")
+item
+['apple', 'FISH', 'Orange', 'SOAP', 'TOWEL', 'Fish']
+ items
+ 
+SyntaxError: unexpected indent
+item
+['apple', 'FISH', 'Orange', 'SOAP', 'TOWEL', 'Fish']
+len(item)
+6
+"apple" in item
+True
+"chicken" in item
+False
