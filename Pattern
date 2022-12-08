@@ -1,0 +1,47 @@
+# n = 5
+# for i in range(n):# for row
+#     for j in range(n):#for coloumn
+#         print('*',end=" ")##end for horizontal line
+#     print()
+
+## for increasing triangle
+
+n = 5
+for i in range(n):# for row
+    for j in range(i+1):#for coloumn
+        print(' ',end=" ")##end for horizontal line
+    print()
+
+
+##for decreasing triangle
+
+# n= 5
+# for i in range(n):
+#     for j in range(i,n):
+#         print('&', end= " ")
+#     print()
+
+## two triangle combination
+# n = 5
+# for i in range(n):
+#     for j in range(i+1):
+#         print("",end="")
+#     for j in range(i,n):#to remove one column to find the peak  we have to put only I instead of i+1
+#         print("&",end="")
+#     for j in range(i,n):
+#         print("",end="")
+#     print()
+#
+
+
+
+#DOWNHIL
+n = 5
+for i in range(n):
+    for j in range(i,n):
+        print("",end=" ")
+    for j in range(i+1):
+        print("*",end=" ")
+    for j in range(i+1):
+        print("",end="")
+    print()
